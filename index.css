@@ -1,0 +1,39 @@
+.nav {
+  
+}
+
+.nav-links {
+     display: flex;
+     gap:10px;
+     font-size: 22px;
+     margin-left: auto;
+     background-color:goldenrod ;
+     align-items: center;
+     justify-content: center;
+   
+}
+
+.nav-logo img {
+   width: 150px;
+   
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    background-color: blue;
+    padding: 50px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.hero-image img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border:solid yellowgreen;
+    border-radius: 30px;
+    padding: 20px;
+}
+
