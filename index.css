@@ -1,39 +1,158 @@
-.nav {
-  
-}
-
 .nav-links {
-     display: flex;
-     gap:10px;
-     font-size: 22px;
-     margin-left: auto;
-     background-color:goldenrod ;
-     align-items: center;
-     justify-content: center;
-   
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+  margin-left: auto;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-logo img {
-   width: 150px;
-   
+  width: 150px;
 }
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:30px;
-    background-color: blue;
-    padding: 50px;
-    color: white;
-    flex-wrap: wrap;
-}
-
-.hero-image img{
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
-    border:solid yellowgreen;
-    border-radius: 30px;
-    padding: 20px;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: blue;
+  padding: 50px;
+  color: white;
+  flex-wrap: wrap;
 }
 
+.hero-image img {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  border: solid yellowgreen;
+  border-radius: 30px;
+  padding: 20px;
+}
+.Aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  background-color: purple;
+  padding: 50px;
+  color: white;
+  /* flex-wrap: wrap; */
+}
+.Aboutus-image img{
+  width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  border: solid sienna;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.Aboutus-text{
+  width: 100%;
+}
+
+.Aboutus-text h2{
+  font-size: 60px;
+}
+
+.Aboutus-text p{
+  font-size: 48px;
+}
+
+.Ourservices {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap:60px;
+  background-color: aqua;
+  padding: 50px;
+  border-radius: 30px;
+  
+}
+
+.Ourservices-image img {
+  width: 100%;
+  object-fit: cover;
+  margin-left: auto ;
+  border: solid gold;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.Ourservices-text {
+  width: 100%;
+}
+
+
+
+.Ourservices-text h1{
+  font-size:70px ;
+}
+
+.Ourservices-text p{
+  font-size: 40px;
+}
+
+.Ourservices-text p{
+  font-size: 40px;
+}
+
+.Contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: orange;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.Contacts-image img{
+  width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  border: salmon;
+  padding: 20px;
+  border: 30px;
+}
+
+.Contacts-text{
+  width: 100%;
+}
+
+.Contacts-text h1{
+  font-size: 70px;
+}
+
+.Contacts-text p{
+  font-size: 40px;
+}
+
+.Contacts-text p{
+ font-size: 40px;
+ }
+
+ .Contacts-text p{
+  font-size: 40px;
+ }
+
+ .quicklinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+  background-color: aquamarine;
+  padding: 50px;
+  border-radius: 30px;
+ }
+
+ .quicklinks image img {
+  width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  border: royalblue;
+  padding: 20px;
+  border: 30px;
+ }
