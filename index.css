@@ -1,6 +1,6 @@
 .nav-links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   font-size: 22px;
   margin-left: auto;
   background-color: goldenrod;
@@ -9,34 +9,38 @@
 }
 
 .nav-logo img {
-  width: 150px;
+  width: 100px;
 }
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap:30px;
   background-color: blue;
-  padding: 50px;
+  padding:70px;
   color: white;
+  border-radius: 30px;
   flex-wrap: wrap;
+
 }
 
 .hero-image img {
-  width: 200px;
-  height: 200px;
-  margin-left: 20px;
+  width: 100%;
+  height: 150px;
+  margin-left: auto;
   border: solid yellowgreen;
-  border-radius: 30px;
-  padding: 20px;
+  object-fit: cover;
+  padding: 30px;
+  border: 30px;
 }
 .Aboutus {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 30px;
   background-color: purple;
-  padding: 50px;
+  padding: 30px;
+  border-radius: 30px;
   color: white;
   /* flex-wrap: wrap; */
 }
@@ -46,7 +50,7 @@
   margin-left: auto;
   border: solid sienna;
   padding: 20px;
-  border-radius: 30px;
+  border: 30px;
 }
 
 .Aboutus-text{
@@ -54,19 +58,18 @@
 }
 
 .Aboutus-text h2{
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .Aboutus-text p{
-  font-size: 48px;
+  font-size: 30px;
 }
 
 .Ourservices {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   gap:30px;
-  background-color: aqua;
   padding: 30px;
   border-radius: 30px;
   
@@ -90,15 +93,15 @@
 
 
 .Ourservices-text h1{
-  font-size:30px ;
+  font-size:40px ;
 }
 
 .Ourservices-text p{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .Ourservices-text p{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .Contacts {
@@ -109,6 +112,7 @@
   background-color: orange;
   padding: 50px;
   border-radius: 30px;
+  color: white;
 }
 
 .Contacts-image img{
@@ -139,26 +143,94 @@
  .Contacts-text p{
   font-size: 30px;
  }
+ .Ourservices {
+  display: flex;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  background-color:lawngreen;
+  padding: 30px;
+  border-radius:30px ;
+  color: white;
+ }
+ .Ourservices-image img{
+  width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  border: saddlebrown;
+  padding: 20px;
+  border: 30px;
+  flex-wrap: wrap;
+ }
+ .Ourservices-text{
+  width: 100%;
+ }
+ .Ourservices-text h1{
+  font-size: 40px;
+ }
+ .Ourservices-text p{
+  font-size: 30;
+ }
+ .Ourservices-text p{
+  font-size: 30px;
+ }
+ .Ourservices-text p{
+  font-size: 30px;
+ }
+ .Ourservices-text p{
+  font-size: 30px;
+ }
+ .Ourservices-text p{
+  font-size: 30px;
+ }
+ .Ourservices-text p{
+  font-size: 30;
+ }
+ .Ourservices-text p{
+  font-size: 30px;
+ }
+ .Ourservices-text p{
+  font-size: 30px;
+ }
 
  .quicklinks {
   display: flex;
+  object-fit: cover;
   align-items: center;
   justify-content: center;
-  gap:50px;
-  background-color: aquamarine;
-  padding: 50px;
+  gap:30px;
+  padding: 20px;
   border-radius: 30px;
+  color: white;
  }
 
  .quicklinks-image img {
   width: 100%;
-  
   object-fit: cover;
   margin-left: auto;
   border: royalblue;
   padding: 20px;
   border: 30px;
   flex-wrap: wrap;
+ }
+ .quicklinks-text{
+  width: 100%;
+ }
+ .quicklinks-text h1{
+  font-size: 50px;
+ }
+ .quicklinks-text p{
+  font-size: 40px;
+ }
+ .quicklinks-text p{
+  font-size: 40px;
+ }
+ .quicklinks-text p{
+  font-size: 40px;
+ }
+ .quicklinks-text{
+  font-size:40px ;
  }
  @media(
   max-width: 768px){
@@ -176,12 +248,18 @@
   display: none;
 }
 .nav-logo img {
-  width: 100px;
+  width: 80px;
 }
-.Ourservices-image{
-
+.nav-bars{
+margin-left: auto;
+display: block;
 }
-
-
 
 } 
+
+@media(min-width:767px){
+.nav-bars{
+  display: none;
+}
+
+}
